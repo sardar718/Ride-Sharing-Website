@@ -71,6 +71,7 @@ body {
   border-radius: 6px;
   margin-right: 50px;
   /* font-family: Gilroy; */
+  letter-spacing: 1px;
 
 }
 
@@ -109,6 +110,7 @@ section {
   line-height: 60px;
   letter-spacing: 0px;
   word-spacing: 5px;
+  margin-top: 100px;
 
 
 
@@ -123,7 +125,8 @@ section {
   /* font-family: Gilroy; */
   font-size: 22px;
   line-height: 28px;
-width: 450px;
+  width: 450px;
+  margin-bottom: 40px;
 
 }
 
@@ -134,8 +137,8 @@ width: 450px;
   gap: 30px;
   padding: 15px;
   /* height: 90px; */
-  
-  
+
+
 }
 
 .playstore {
@@ -149,7 +152,7 @@ width: 450px;
   style: bold;
   font-weight: 600;
   /* font-size: 15px; */
-  
+
 
 
 
@@ -265,14 +268,14 @@ section>div {
 
 .rectangle {
   background-color: #75BF7A;
-  margin-top: 100px;
+  margin-top: 70px;
   border-radius: 6px;
   margin: 80px 10px;
   display: flex;
   padding: 10px;
   justify-content: space-around;
   align-items: center;
-  
+
   /* border: 2px solid red; */
   gap: 35px;
   margin-left: 60px;
@@ -301,11 +304,12 @@ section>div {
   border-radius: 4.5px;
   border: none;
   font-size: 20px;
-  color:#DADADA
+  color: #DADADA;
+
 }
 
 input::placeholder {
-  color:#c2c0c0
+  color: #c2c0c0
 }
 
 
@@ -319,6 +323,7 @@ input::placeholder {
   margin-left: 5px;
   font-family: Gilroy;
   font-size: 20px;
+  text-align: center;
 }
 
 .how-main-div {
@@ -333,9 +338,6 @@ input::placeholder {
   /* font-weight: 800; */
   /* font-size: 70px; */
   line-height: 50px;
-
-
-  
 
 
 }
@@ -376,7 +378,7 @@ div.how-main-div {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-} 
+}
 
 
 /* ----------------------------------------------------- */
@@ -417,6 +419,7 @@ div.how-main-div {
   width: 100%;
   height: 50%;
 }
+
 /* 
 .one-image {
   width: 25%;
@@ -446,7 +449,6 @@ div.how-main-div {
 
 
 
-
 }
 
 /* 2 divs in right div   */
@@ -461,7 +463,6 @@ div.how-main-div {
   width: 100%;
   height: 50%;
 }
-
 
 
 
